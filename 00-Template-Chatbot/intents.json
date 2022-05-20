@@ -1,0 +1,95 @@
+{
+    "intents": [
+      {
+        "tag": "salam",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "Apakah ada orang disana?",
+          "Hello",
+          "Selamat siang",
+          "Selamat pagi",
+          "Selamat malam"
+        ],
+        "responses": [
+          "Hai :-)",
+          "Hello, Terima kasih sudah berkunjung",
+          "hello, apa yang bisa saya lakukan untuk Anda?",
+          "hello, ada yang bisa saya bantu?",
+          "hello, terima kasih sudah datang"
+        ]
+      },
+      {
+        "tag": "selamat tinggal",
+        "patterns": [
+          "Sampai jumpa", 
+          "Selamat tinggal", 
+          "Goodbye"],
+        "responses": [
+          "Sampai jumpa lagi, terima kasih sudah berkunjung",
+          "Semoga harimu menyenangkan",
+          "Bye! Kembali lagi segera."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", 
+          "Thank you", 
+          "Terima kasih", 
+          "Terima kasih banyak"],
+        "responses": [
+          "you're welcome",
+          "My pleasure",  
+          "Senang bisa membantu"]
+      },
+      {
+        "tag": "barang",
+        "patterns": [
+          "Barang apa yang kamu punya?",
+          "Jenis barang apa saja yang ada?",
+          "Apa yang kamu jual?"
+        ],
+        "responses": [
+          "Kami menjual pakaian dan sepatu",
+          "Untuk melihat daftar barang silahkan check pada menu produk"
+        ]
+      },
+      {
+        "tag": "pembayaran",
+        "patterns": [
+          "Bisa dengan kartu kredit?",
+          "Apakah Anda menerima Transfer?",
+          "Bisakah saya membayar dengan Paypal?",
+          "Apakah bisa cash?"
+        ],
+        "responses": [
+          "Kami menerima VISA, Mastercard, Paypal dan Tranfers antar Bank",
+          "Kami menerima sebagian besar kartu kredit utama, dan Paypal"
+        ]
+      },
+      {
+        "tag": "pengiriman",
+        "patterns": [
+          "Berapa lama pengiriman?",
+          "Berapa lama proses pengiriman?",
+          "Kapan saya mendapatkan kiriman saya?"
+        ],
+        "responses": [
+          "Pengiriman memakan waktu 2-4 hari",
+          "Pengiriman memakan waktu sekitar 2-4 hari"
+        ]
+      },
+      {
+        "tag": "lucu",
+        "patterns": [
+          "Ceritakan padaku lelucon!",
+          "Katakan sesuatu yang lucu!",
+          "Apakah kamu tahu lelucon?"
+        ],
+        "responses": [
+          "Kemarin aku beli obat tidur, pulangnya aku bawa pelan-pelan. takut obatnya bangun :D",
+          "Ikhlas itu kayak keset. Diinjek-injek tetap welcome hehehe."
+        ]
+      }
+    ]
+  }
